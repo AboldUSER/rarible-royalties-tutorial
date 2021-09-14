@@ -1,13 +1,12 @@
 {
   "name": "rarible-royalties",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Integrate Rarible royalties into your own ECR721 smart contract",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "hardhat test"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Martin Sterlicchi",
+  "license": "MIT",
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.2",
     "@nomiclabs/hardhat-waffle": "^2.0.1",
