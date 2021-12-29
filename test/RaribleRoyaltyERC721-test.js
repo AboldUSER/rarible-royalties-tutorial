@@ -17,7 +17,7 @@ describe('RaribleRoyaltyERC721 Test', () => {
     describe('Mint token and set royalty', async () => {
         it('mint two tokens and set two different royalties', async () => {
             const royalty10Percent = 1000
-            const royalty20Percent = 1000
+            const royalty20Percent = 2000
 
             await royaltyNFT.connect(deployer).mint(account1.address)
             await royaltyNFT.connect(deployer).setRoyalties(0, account1.address, royalty10Percent)
